@@ -1,0 +1,18 @@
+// mixins
+@mixin xs {
+  @media screen and (max-width: $smWidth) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: $mdWidth) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: $lgWidth) {
+    @content;
+  }
+}
